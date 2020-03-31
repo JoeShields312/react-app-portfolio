@@ -10,7 +10,7 @@ function About() {
         <div className="row pb-5">
           <div className="col-md-4">
             <img
-              src={"http://drive.google.com/uc?export=view&id=1HyhTqVM_MEfo07pCaBenwGwQ8ntCoA3i"}
+              src={"https://drive.google.com/uc?export=view&id=1HyhTqVM_MEfo07pCaBenwGwQ8ntCoA3i"}
               className="card-img"
               alt="ProfilePic"
             />
