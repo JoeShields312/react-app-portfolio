@@ -1,11 +1,11 @@
 import React from 'react';
-import NavTabs from "./Components/NavTabs/NavTabs";
+import NavTabs from "./Components/NavTabs/NavTabs.jsx";
 import {BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
-import Portfolio from "./Components/Portfolio/Portfolio";
-import About from "./Components/About/About";
-import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
+import Portfolio from "./Components/Portfolio/Portfolio.jsx";
+import About from "./Components/About/About.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 
 
 
