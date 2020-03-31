@@ -1,0 +1,37 @@
+{
+  "name": "react-app-portfolio",
+  "version": "1.0.0",
+  "description": "react, react-router-dom, react-hooks, express, concurrently",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JShields30/react-app-portfolio.git"
+  },
+  "keywords": [],
+  "author": "Joe Shields",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JShields30/react-app-portfolio/issues"
+  },
+  "homepage": "https://github.com/JShields30/react-app-portfolio#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "nodemailer": "^6.4.6"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
