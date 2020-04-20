@@ -13,7 +13,7 @@ const Footer = () => {
       </MDBContainer>
       <div className="footer-copyright text-center">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: Joe Shields
+          &copy; {new Date().getFullYear()}
         </MDBContainer>
       </div>
     </MDBFooter>

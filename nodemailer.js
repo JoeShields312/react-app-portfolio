@@ -14,13 +14,12 @@
 //     port: 465,
 //     secure: true, // true for 465, false for other ports
 //     auth: {
-//         type: "OAuth2",
+//         type: "oauth2",
 //         user: process.env.EMAIL, // email you are using with nodemailer
 //         pass: process.env.PASSWORD, // email password
 //         REACT_APP_CLIENT_ID: process.env.REACT_APP_CLIENT_ID,
 //         REACT_APP_CLIENT_SECRET:process.env.REACT_APP_CLIENT_SECRET,
-//         REACT_APP_REFRESH_TOKEN: process.env.REACT_APP_REFRESH_TOKEN,
-//         REACT_APP_ACCESS_TOKEN: process.env.REACT_APP_ACCESS_TOKEN,
+//         REACT_APP_REFRESH_TOKEN: process.env.REACT_APP_REFRESH_TOKEN
 //     },
 //     tls:{
 //        rejectUnauthorized:false 

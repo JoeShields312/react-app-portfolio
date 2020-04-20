@@ -4,7 +4,4 @@ react, react-router-dom, react-hooks, express, concurrently
 ## Direct Link to Heroku 
 https://reactportfolio-jshields.herokuapp.com/
 
-- heroku login
-- git add .
-- git commit -m ""
-- git push heroku master
+
