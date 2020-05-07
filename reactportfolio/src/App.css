@@ -32,6 +32,9 @@
 .projectText {
   text-align: center !important;
 }
+.summaryText {
+  text-align: center !important;
+}
 .AboutBox {
   box-shadow: inset 6px -4px 150px 125px rgba(47, 79, 79, 1) !important;
   /* display: block !important; */
