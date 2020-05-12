@@ -6,6 +6,7 @@ import PortfolioItem from '../PortfolioItem/PortfolioItem';
 // return <li>{props.value}</li>
 // }
 
+
 // function ProjectList(props) {
 //   const data = props.data;
 //   const projectItems = data.map((data) => 
@@ -26,10 +27,10 @@ import PortfolioItem from '../PortfolioItem/PortfolioItem';
         text: "Budget Tracker"
       },
       { id: 3,
-        imageSrc: "http://drive.google.com/uc?export=view&id=1CkQj9YZwkUa9rQvyNQxXexfpMv-Vceid",
-        url: "https://nutridish1.herokuapp.com/",
-        summary: "App that allows users to search for recipes that are high in a specific nutrient. User will then have the ability to save the recipe to their login.",
-        text: "NutriDish"
+        imageSrc: "http://drive.google.com/uc?export=view&id=1W7t-3fILUuh9u3gN5ToE1gM61jdVtJcR",
+        url: "https://glacial-plateau-02354.herokuapp.com/",
+        summary: "App that allows users the ability to search through a directory of employees to find specifically who they are searching for in the company. Search criteria for this app is only for by first and last name. App can be implemented with any companies directory and customized to search by department, name, or email. ",
+        text: "Employee Directory"
       },
       { id: 4,
         imageSrc: "http://drive.google.com/uc?export=view&id=1mpJRCsHUOzgui5izM2tFAR3lVTSPnATr",
@@ -38,10 +39,10 @@ import PortfolioItem from '../PortfolioItem/PortfolioItem';
         text: "Movies & Groovies"
       },
       { id: 5,
-        imageSrc: "http://drive.google.com/uc?export=view&id=1W7t-3fILUuh9u3gN5ToE1gM61jdVtJcR",
-        url: "https://glacial-plateau-02354.herokuapp.com/",
-        summary: "App that allows users the ability to search through a directory of employees to find specifically who they are searching for in the company. Search criteria for this app is only for by first and last name. App can be implemented with any companies directory and customized to search by department, name, or email. ",
-        text: "Employee Directory"
+        imageSrc: "http://drive.google.com/uc?export=view&id=1CkQj9YZwkUa9rQvyNQxXexfpMv-Vceid",
+        url: "https://nutridish1.herokuapp.com/",
+        summary: "App that allows users to search for recipes that are high in a specific nutrient. User will then have the ability to save the recipe to their login.",
+        text: "NutriDish"
       },
       { id: 6,
         imageSrc: "http://drive.google.com/uc?export=view&id=1Kriecd39WMkbNfM_Vc-_NvFGX9GLgg7R",
