@@ -37,3 +37,15 @@
 // }
 
 // //main().catch(console.error);
+"use strict";
+const router = require ("express").Router()
+const nodemailer = require('nodemailer');
+require('dotenv').config();
+
+const auth = {
+    type: 'oauth2',
+    user: process.env.EMAIL,
+    REACT_APP_CLIENT_ID: process.env.REACT_APP_CLIENT_ID,
+    REACT_APP_CLIENT_SECRET:process.env.REACT_APP_CLIENT_SECRET,
+    REACT_APP_REFRESH_TOKEN: process.env.REACT_APP_REFRESH_TOKEN
+}

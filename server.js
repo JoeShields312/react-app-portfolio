@@ -1,6 +1,6 @@
 const express = require('express');
-// const bodyParser = require('body-parser');
-//const nodemailer = require("nodemailer");
+const bodyParser = require('body-parser');
+const nodemailer = require("nodemailer");
 require('dotenv').config();
 // const result = dotenv.config()
 // console.log(dotenv.config())
@@ -26,11 +26,11 @@ if (process.env.NODE_ENV === "production") {
     app.use(express.static("reactportfolio/build"))
 };
 
-// app.post('/api/form', (req, res) => {
-//     console.log(req.body)
-//     console.log( mail)
-//     mail(req.body)
-// });
+app.post('/api/form', (req, res) => {
+    console.log(req.body)
+    console.log( mail)
+    mail(req.body)
+});
 
 app.listen(PORT, () => {
     console.log(`Server listening on port http://localhost:${PORT}`)
