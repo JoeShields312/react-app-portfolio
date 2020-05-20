@@ -24,7 +24,7 @@ const NavTabs = () => {
                         </Link>
                     </li>
                     &nbsp;|&nbsp;
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link
                             to="/contact" 
                             className={
@@ -35,7 +35,7 @@ const NavTabs = () => {
                             Contact
                         </Link>
                     </li>
-                    &nbsp;|&nbsp;
+                    &nbsp;|&nbsp; */}
                     <li className="nav-item">
                         <Link
                             to="/portfolio" 
