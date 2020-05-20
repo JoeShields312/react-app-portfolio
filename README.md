@@ -37,8 +37,3 @@ This is my personal website. This site contains a short bio about me, some of th
 ## Built With
 * [Create-React-App](https://reactjs.org/docs/create-a-new-react-app.html) - The web framework used
 * [Node.js](https://nodejs.org/en/docs/) - Runtime Environment 
-
-
-https://drive.google.com/file/d/1ibcXI0srfswNfgOL9-10isVXNJtB-y4u/view
-
-https://drive.google.com/open?id=14KuulGr_ZHBvfs6L4o7rJgEMsKWAyMkx
