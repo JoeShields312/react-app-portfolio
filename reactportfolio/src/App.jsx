@@ -4,7 +4,7 @@ import {BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
 import Portfolio from "./Components/Portfolio/Portfolio.jsx";
 import About from "./Components/About/About.jsx";
-import Contact from "./Components/Contact/Contact.jsx";
+// import Contact from "./Components/Contact/Contact.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 
 
