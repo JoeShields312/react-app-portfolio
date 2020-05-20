@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../Container/Container";
 import PortfolioItem from '../PortfolioItem/PortfolioItem';
+// import './App.css';
 
 // async function ProjectItem(props) {
 // return <li>{props.value}</li>
@@ -68,6 +69,7 @@ import PortfolioItem from '../PortfolioItem/PortfolioItem';
   
 function Portfolio() {
   return (
+      <div className="portitems">
     <Container>
       <div className="row pb-4">
       {data.map((project) => {
@@ -81,6 +83,7 @@ function Portfolio() {
       })}
       </div>
     </Container>
+      </div>
   );
 }
 
