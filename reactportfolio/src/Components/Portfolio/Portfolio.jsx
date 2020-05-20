@@ -69,13 +69,13 @@ import PortfolioItem from '../PortfolioItem/PortfolioItem';
   
 function Portfolio() {
   return (
-      <div className="portitems">
     <Container>
+    <div className="portitems"/>
       <div className="row pb-4">
       {data.map((project) => {
         console.log(project)
         return (
-<React.Fragment key={project.id}>
+          <React.Fragment key={project.id}>
           <PortfolioItem
           key={project.id} id={project.id} imageSrc={project.imageSrc} url={project.url} summary={project.summary} text={project.text} />
 </React.Fragment>
@@ -83,7 +83,6 @@ function Portfolio() {
       })}
       </div>
     </Container>
-      </div>
   );
 }
 
