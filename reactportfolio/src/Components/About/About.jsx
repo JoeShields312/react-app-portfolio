@@ -16,7 +16,7 @@ function About() {
         <div className="col-md-4">
           <img
             src={
-              "http://drive.google.com/uc?export=view&id=1HyhTqVM_MEfo07pCaBenwGwQ8ntCoA3i"
+              "http://drive.google.com/uc?export=view&id=1r5lgYwtYAEZaSM-m_QFsO9L5yDyrYM5L"
             }
             className="card-img"
             alt="ProfilePic"
