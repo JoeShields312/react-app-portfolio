@@ -16,21 +16,20 @@
   left: 0;
 }
 .card-img {
-  border-radius: 250px;
-  /* border: 1px solid white; */
-  overflow: auto !important;
+  border-radius: 50% !important;
   box-shadow:0px 0px 66px 0px #61dbfb;
+  height: auto;
+  width: 100%;
 }
 .portCard {
-  /* border: 1px solid white; */
   /* margin-right: 1rem !important; */
   box-shadow: inset 6px -4px 150px 44px rgba(47, 79, 79, 1) !important;
   text-shadow: 0px 5px 13px #61dbfb,1px 0px 30px #000000,4px -3px 22px #61dbfb !important;
 }
-.portImages:hover {
-  transform: matrix(1.4, -0.54, 0.54, 1.4, 0, 0) !important;
-  overflow: auto !important;
-}
+/* .portImages:hover { */
+  /* transform: matrix(1.4, -0.54, 0.54, 1.4, 0, 0) !important; */
+  /* overflow: auto !important; */
+/* } */
 .portImages {
   display: block !important;
   margin-left: auto !important;
@@ -39,13 +38,15 @@
   transform: matrix(1, 0, 0, 1, 0, 0) !important;
   transition: transform 0.5s ease 0s !important;
   overflow: auto !important;
-  /* border: 1px solid white; */
 }
 .projectText {
   text-align: center !important;
+  margin-top: 1rem;
 }
 .summaryText {
   text-align: center !important;
+  height: 100px;
+  margin-bottom: 3rem;
 }
 .AboutBox {
   box-shadow: inset 6px -4px 150px 125px rgba(47, 79, 79, 1) !important;
@@ -63,7 +64,6 @@
   color: #ffffff !important;
   font-size: 25px !important;
   border-radius: 30px !important;
-  /* border: 1px solid white; */
 }
 .icon-bar a:hover {
   box-shadow: inset 6px 0px 126px 29px rgba(0, 0, 255, 1) !important;
@@ -87,7 +87,6 @@
   margin: auto !important;
   padding: auto !important; 
 }
-
 .row {
   margin: auto !important;
   padding: auto !important; 
@@ -100,3 +99,14 @@
   background-color: #2F4F4F;
   border: 1px solid white;
 } */
+a {
+  color: white;
+}
+.icon {
+  max-width: 100px;
+  height: auto;
+  padding-left: 5px;
+  padding-right: 0;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
