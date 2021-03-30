@@ -13,6 +13,6 @@ function PortfolioItem ({id, imageSrc, summary, text, url, urlG, urlH, iconH, ic
 
 export default PortfolioItem;
 
-{/* <a href="https://github.com/JShields30" target="__blank"className="github">
+/* <a href="https://github.com/JShields30" target="__blank"className="github">
     <i className="fab fa-github" data-toggle="tooltip" data-placement="top" 
-    title="GitHub Link"></i></a> */}
+    title="GitHub Link"></i></a> */

@@ -16,7 +16,7 @@ function About() {
         <div className="col-md-4">
           <img
             src={
-              "http://drive.google.com/uc?export=view&id=1r5lgYwtYAEZaSM-m_QFsO9L5yDyrYM5L"
+              "http://drive.google.com/uc?export=view&id=1sQIuxYprbofLN__tpEBbR7urzJFVBRj6"
             }
             className="card-img"
             alt="ProfilePic"
@@ -43,8 +43,8 @@ function About() {
             reminder to take a step back and clear my head to remain effective.
           </p>
           <p className="card-text text-white font-weight-bold">
-            React | Express | Node | MongoDB | SQL | JavaScript | jQuery |
-            Bootstrap | HTML5 | CSS3
+            React | Express | Node | MongoDB | SQL | JavaScript | Next.js | AWS | JAMstack |
+            Apollo | HTML | CSS | WordPress | WPGraphQL | TypeScript | GraphQL Tailwindcss | MongoDB | Figma 
           </p>
         </div>
       </div>
